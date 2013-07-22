@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94669F21179AC9450018D4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F20179AC9450018D4A7 /* Foundation.framework */; };
+		94669F26179AC9450018D4A7 /* JDAutoRun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94669F25179AC9450018D4A7 /* JDAutoRun.h */; };
+		94669F28179AC9450018D4A7 /* JDAutoRun.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F27179AC9450018D4A7 /* JDAutoRun.mm */; };
+		94669F30179AC9450018D4A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F2F179AC9450018D4A7 /* SenTestingKit.framework */; };
+		94669F33179AC9450018D4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F20179AC9450018D4A7 /* Foundation.framework */; };
+		94669F36179AC9450018D4A7 /* libJViewSpy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F1D179AC9450018D4A7 /* libJViewSpy.a */; };
+		94669F3C179AC9450018D4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94669F3A179AC9450018D4A7 /* InfoPlist.strings */; };
+		94669F3F179AC9450018D4A7 /* JViewSpyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94669F3E179AC9450018D4A7 /* JViewSpyTests.m */; };
+		94669F4E179AC9780018D4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F20179AC9450018D4A7 /* Foundation.framework */; };
+		94669F50179AC9780018D4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F4F179AC9780018D4A7 /* CoreGraphics.framework */; };
+		94669F52179AC9780018D4A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F51179AC9780018D4A7 /* CoreData.framework */; };
+		94669F58179AC9780018D4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94669F56179AC9780018D4A7 /* InfoPlist.strings */; };
+		94669F5A179AC9780018D4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94669F59179AC9780018D4A7 /* main.m */; };
+		94669F5E179AC9780018D4A7 /* JDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F5D179AC9780018D4A7 /* JDAppDelegate.mm */; };
+		94669F60179AC9780018D4A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94669F5F179AC9780018D4A7 /* Default.png */; };
+		94669F62179AC9780018D4A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94669F61179AC9780018D4A7 /* Default@2x.png */; };
+		94669F64179AC9780018D4A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94669F63179AC9780018D4A7 /* Default-568h@2x.png */; };
+		94669F67179AC9780018D4A7 /* JViewSpyTarget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94669F65179AC9780018D4A7 /* JViewSpyTarget.xcdatamodeld */; };
+		94669F6E179AC9780018D4A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F2F179AC9450018D4A7 /* SenTestingKit.framework */; };
+		94669F70179AC9780018D4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F20179AC9450018D4A7 /* Foundation.framework */; };
+		94669F71179AC9780018D4A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F51179AC9780018D4A7 /* CoreData.framework */; };
+		94669F79179AC9780018D4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94669F77179AC9780018D4A7 /* InfoPlist.strings */; };
+		94669F7C179AC9780018D4A7 /* JViewSpyTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94669F7B179AC9780018D4A7 /* JViewSpyTargetTests.m */; };
+		94669F87179AC9A60018D4A7 /* libJViewSpy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F1D179AC9450018D4A7 /* libJViewSpy.a */; };
+		94669F89179AC9CC0018D4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94669F88179AC9CC0018D4A7 /* UIKit.framework */; };
+		94669F8F179ACF5D0018D4A7 /* CocoaHook.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F8C179ACF5D0018D4A7 /* CocoaHook.mm */; };
+		94669F90179ACF5D0018D4A7 /* HookController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F8E179ACF5D0018D4A7 /* HookController.mm */; };
+		94669F93179AD5850018D4A7 /* JDSypMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F92179AD5850018D4A7 /* JDSypMain.mm */; };
+		94669F97179ADE2C0018D4A7 /* JDNetClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94669F96179ADE2C0018D4A7 /* JDNetClient.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94669F34179AC9450018D4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94669F15179AC9450018D4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94669F1C179AC9450018D4A7;
+			remoteInfo = JViewSpy;
+		};
+		94669F72179AC9780018D4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94669F15179AC9450018D4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94669F4B179AC9780018D4A7;
+			remoteInfo = JViewSpyTarget;
+		};
+		94669F85179AC9A20018D4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94669F15179AC9450018D4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94669F1C179AC9450018D4A7;
+			remoteInfo = JViewSpy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94669F1B179AC9450018D4A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				94669F26179AC9450018D4A7 /* JDAutoRun.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		94669F1D179AC9450018D4A7 /* libJViewSpy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJViewSpy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94669F20179AC9450018D4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94669F24179AC9450018D4A7 /* JViewSpy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JViewSpy-Prefix.pch"; sourceTree = "<group>"; };
+		94669F25179AC9450018D4A7 /* JDAutoRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAutoRun.h; sourceTree = "<group>"; };
+		94669F27179AC9450018D4A7 /* JDAutoRun.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JDAutoRun.mm; sourceTree = "<group>"; };
+		94669F2E179AC9450018D4A7 /* JViewSpyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JViewSpyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94669F2F179AC9450018D4A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		94669F39179AC9450018D4A7 /* JViewSpyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JViewSpyTests-Info.plist"; sourceTree = "<group>"; };
+		94669F3B179AC9450018D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94669F3D179AC9450018D4A7 /* JViewSpyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JViewSpyTests.h; sourceTree = "<group>"; };
+		94669F3E179AC9450018D4A7 /* JViewSpyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JViewSpyTests.m; sourceTree = "<group>"; };
+		94669F4C179AC9780018D4A7 /* JViewSpyTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JViewSpyTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94669F4F179AC9780018D4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94669F51179AC9780018D4A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94669F55179AC9780018D4A7 /* JViewSpyTarget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JViewSpyTarget-Info.plist"; sourceTree = "<group>"; };
+		94669F57179AC9780018D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94669F59179AC9780018D4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94669F5B179AC9780018D4A7 /* JViewSpyTarget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JViewSpyTarget-Prefix.pch"; sourceTree = "<group>"; };
+		94669F5C179AC9780018D4A7 /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		94669F5D179AC9780018D4A7 /* JDAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JDAppDelegate.mm; sourceTree = "<group>"; };
+		94669F5F179AC9780018D4A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94669F61179AC9780018D4A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		94669F63179AC9780018D4A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94669F66179AC9780018D4A7 /* JViewSpyTarget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JViewSpyTarget.xcdatamodel; sourceTree = "<group>"; };
+		94669F6D179AC9780018D4A7 /* JViewSpyTargetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JViewSpyTargetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94669F76179AC9780018D4A7 /* JViewSpyTargetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JViewSpyTargetTests-Info.plist"; sourceTree = "<group>"; };
+		94669F78179AC9780018D4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94669F7A179AC9780018D4A7 /* JViewSpyTargetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JViewSpyTargetTests.h; sourceTree = "<group>"; };
+		94669F7B179AC9780018D4A7 /* JViewSpyTargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JViewSpyTargetTests.m; sourceTree = "<group>"; };
+		94669F88179AC9CC0018D4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94669F8B179ACF5D0018D4A7 /* CocoaHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaHook.h; sourceTree = "<group>"; };
+		94669F8C179ACF5D0018D4A7 /* CocoaHook.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocoaHook.mm; sourceTree = "<group>"; };
+		94669F8D179ACF5D0018D4A7 /* HookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookController.h; sourceTree = "<group>"; };
+		94669F8E179ACF5D0018D4A7 /* HookController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HookController.mm; sourceTree = "<group>"; };
+		94669F91179AD5850018D4A7 /* JDSypMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSypMain.h; sourceTree = "<group>"; };
+		94669F92179AD5850018D4A7 /* JDSypMain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JDSypMain.mm; sourceTree = "<group>"; };
+		94669F95179ADE2C0018D4A7 /* JDNetClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDNetClient.h; path = NetClient/JDNetClient.h; sourceTree = "<group>"; };
+		94669F96179ADE2C0018D4A7 /* JDNetClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JDNetClient.mm; path = NetClient/JDNetClient.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94669F1A179AC9450018D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F21179AC9450018D4A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F2A179AC9450018D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F30179AC9450018D4A7 /* SenTestingKit.framework in Frameworks */,
+				94669F33179AC9450018D4A7 /* Foundation.framework in Frameworks */,
+				94669F36179AC9450018D4A7 /* libJViewSpy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F49179AC9780018D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F89179AC9CC0018D4A7 /* UIKit.framework in Frameworks */,
+				94669F87179AC9A60018D4A7 /* libJViewSpy.a in Frameworks */,
+				94669F4E179AC9780018D4A7 /* Foundation.framework in Frameworks */,
+				94669F50179AC9780018D4A7 /* CoreGraphics.framework in Frameworks */,
+				94669F52179AC9780018D4A7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F69179AC9780018D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F6E179AC9780018D4A7 /* SenTestingKit.framework in Frameworks */,
+				94669F70179AC9780018D4A7 /* Foundation.framework in Frameworks */,
+				94669F71179AC9780018D4A7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94669F14179AC9450018D4A7 = {
+			isa = PBXGroup;
+			children = (
+				94669F22179AC9450018D4A7 /* JViewSpy */,
+				94669F37179AC9450018D4A7 /* JViewSpyTests */,
+				94669F53179AC9780018D4A7 /* JViewSpyTarget */,
+				94669F74179AC9780018D4A7 /* JViewSpyTargetTests */,
+				94669F1F179AC9450018D4A7 /* Frameworks */,
+				94669F1E179AC9450018D4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94669F1E179AC9450018D4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94669F1D179AC9450018D4A7 /* libJViewSpy.a */,
+				94669F2E179AC9450018D4A7 /* JViewSpyTests.octest */,
+				94669F4C179AC9780018D4A7 /* JViewSpyTarget.app */,
+				94669F6D179AC9780018D4A7 /* JViewSpyTargetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94669F1F179AC9450018D4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94669F88179AC9CC0018D4A7 /* UIKit.framework */,
+				94669F20179AC9450018D4A7 /* Foundation.framework */,
+				94669F2F179AC9450018D4A7 /* SenTestingKit.framework */,
+				94669F4F179AC9780018D4A7 /* CoreGraphics.framework */,
+				94669F51179AC9780018D4A7 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94669F22179AC9450018D4A7 /* JViewSpy */ = {
+			isa = PBXGroup;
+			children = (
+				94669F94179ADD110018D4A7 /* NetClient */,
+				94669F23179AC9450018D4A7 /* Supporting Files */,
+				94669F8A179ACF5D0018D4A7 /* Hook */,
+				94669F25179AC9450018D4A7 /* JDAutoRun.h */,
+				94669F27179AC9450018D4A7 /* JDAutoRun.mm */,
+				94669F91179AD5850018D4A7 /* JDSypMain.h */,
+				94669F92179AD5850018D4A7 /* JDSypMain.mm */,
+			);
+			path = JViewSpy;
+			sourceTree = "<group>";
+		};
+		94669F23179AC9450018D4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94669F24179AC9450018D4A7 /* JViewSpy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94669F37179AC9450018D4A7 /* JViewSpyTests */ = {
+			isa = PBXGroup;
+			children = (
+				94669F3D179AC9450018D4A7 /* JViewSpyTests.h */,
+				94669F3E179AC9450018D4A7 /* JViewSpyTests.m */,
+				94669F38179AC9450018D4A7 /* Supporting Files */,
+			);
+			path = JViewSpyTests;
+			sourceTree = "<group>";
+		};
+		94669F38179AC9450018D4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94669F39179AC9450018D4A7 /* JViewSpyTests-Info.plist */,
+				94669F3A179AC9450018D4A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94669F53179AC9780018D4A7 /* JViewSpyTarget */ = {
+			isa = PBXGroup;
+			children = (
+				94669F5C179AC9780018D4A7 /* JDAppDelegate.h */,
+				94669F5D179AC9780018D4A7 /* JDAppDelegate.mm */,
+				94669F65179AC9780018D4A7 /* JViewSpyTarget.xcdatamodeld */,
+				94669F54179AC9780018D4A7 /* Supporting Files */,
+			);
+			path = JViewSpyTarget;
+			sourceTree = "<group>";
+		};
+		94669F54179AC9780018D4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94669F55179AC9780018D4A7 /* JViewSpyTarget-Info.plist */,
+				94669F56179AC9780018D4A7 /* InfoPlist.strings */,
+				94669F59179AC9780018D4A7 /* main.m */,
+				94669F5B179AC9780018D4A7 /* JViewSpyTarget-Prefix.pch */,
+				94669F5F179AC9780018D4A7 /* Default.png */,
+				94669F61179AC9780018D4A7 /* Default@2x.png */,
+				94669F63179AC9780018D4A7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94669F74179AC9780018D4A7 /* JViewSpyTargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				94669F7A179AC9780018D4A7 /* JViewSpyTargetTests.h */,
+				94669F7B179AC9780018D4A7 /* JViewSpyTargetTests.m */,
+				94669F75179AC9780018D4A7 /* Supporting Files */,
+			);
+			path = JViewSpyTargetTests;
+			sourceTree = "<group>";
+		};
+		94669F75179AC9780018D4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94669F76179AC9780018D4A7 /* JViewSpyTargetTests-Info.plist */,
+				94669F77179AC9780018D4A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94669F8A179ACF5D0018D4A7 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				94669F8B179ACF5D0018D4A7 /* CocoaHook.h */,
+				94669F8C179ACF5D0018D4A7 /* CocoaHook.mm */,
+				94669F8D179ACF5D0018D4A7 /* HookController.h */,
+				94669F8E179ACF5D0018D4A7 /* HookController.mm */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		94669F94179ADD110018D4A7 /* NetClient */ = {
+			isa = PBXGroup;
+			children = (
+				94669F95179ADE2C0018D4A7 /* JDNetClient.h */,
+				94669F96179ADE2C0018D4A7 /* JDNetClient.mm */,
+			);
+			name = NetClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94669F1C179AC9450018D4A7 /* JViewSpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94669F42179AC9450018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpy" */;
+			buildPhases = (
+				94669F19179AC9450018D4A7 /* Sources */,
+				94669F1A179AC9450018D4A7 /* Frameworks */,
+				94669F1B179AC9450018D4A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JViewSpy;
+			productName = JViewSpy;
+			productReference = 94669F1D179AC9450018D4A7 /* libJViewSpy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94669F2D179AC9450018D4A7 /* JViewSpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94669F45179AC9450018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTests" */;
+			buildPhases = (
+				94669F29179AC9450018D4A7 /* Sources */,
+				94669F2A179AC9450018D4A7 /* Frameworks */,
+				94669F2B179AC9450018D4A7 /* Resources */,
+				94669F2C179AC9450018D4A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94669F35179AC9450018D4A7 /* PBXTargetDependency */,
+			);
+			name = JViewSpyTests;
+			productName = JViewSpyTests;
+			productReference = 94669F2E179AC9450018D4A7 /* JViewSpyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		94669F4B179AC9780018D4A7 /* JViewSpyTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94669F7D179AC9780018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTarget" */;
+			buildPhases = (
+				94669F48179AC9780018D4A7 /* Sources */,
+				94669F49179AC9780018D4A7 /* Frameworks */,
+				94669F4A179AC9780018D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94669F86179AC9A20018D4A7 /* PBXTargetDependency */,
+			);
+			name = JViewSpyTarget;
+			productName = JViewSpyTarget;
+			productReference = 94669F4C179AC9780018D4A7 /* JViewSpyTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94669F6C179AC9780018D4A7 /* JViewSpyTargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94669F80179AC9780018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTargetTests" */;
+			buildPhases = (
+				94669F68179AC9780018D4A7 /* Sources */,
+				94669F69179AC9780018D4A7 /* Frameworks */,
+				94669F6A179AC9780018D4A7 /* Resources */,
+				94669F6B179AC9780018D4A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94669F73179AC9780018D4A7 /* PBXTargetDependency */,
+			);
+			name = JViewSpyTargetTests;
+			productName = JViewSpyTargetTests;
+			productReference = 94669F6D179AC9780018D4A7 /* JViewSpyTargetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94669F15179AC9450018D4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Liang Jin";
+			};
+			buildConfigurationList = 94669F18179AC9450018D4A7 /* Build configuration list for PBXProject "JViewSpy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94669F14179AC9450018D4A7;
+			productRefGroup = 94669F1E179AC9450018D4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94669F1C179AC9450018D4A7 /* JViewSpy */,
+				94669F2D179AC9450018D4A7 /* JViewSpyTests */,
+				94669F4B179AC9780018D4A7 /* JViewSpyTarget */,
+				94669F6C179AC9780018D4A7 /* JViewSpyTargetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94669F2B179AC9450018D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F3C179AC9450018D4A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F4A179AC9780018D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F58179AC9780018D4A7 /* InfoPlist.strings in Resources */,
+				94669F60179AC9780018D4A7 /* Default.png in Resources */,
+				94669F62179AC9780018D4A7 /* Default@2x.png in Resources */,
+				94669F64179AC9780018D4A7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F6A179AC9780018D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F79179AC9780018D4A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94669F2C179AC9450018D4A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		94669F6B179AC9780018D4A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94669F19179AC9450018D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F28179AC9450018D4A7 /* JDAutoRun.mm in Sources */,
+				94669F8F179ACF5D0018D4A7 /* CocoaHook.mm in Sources */,
+				94669F90179ACF5D0018D4A7 /* HookController.mm in Sources */,
+				94669F93179AD5850018D4A7 /* JDSypMain.mm in Sources */,
+				94669F97179ADE2C0018D4A7 /* JDNetClient.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F29179AC9450018D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F3F179AC9450018D4A7 /* JViewSpyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F48179AC9780018D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F5A179AC9780018D4A7 /* main.m in Sources */,
+				94669F5E179AC9780018D4A7 /* JDAppDelegate.mm in Sources */,
+				94669F67179AC9780018D4A7 /* JViewSpyTarget.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94669F68179AC9780018D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94669F7C179AC9780018D4A7 /* JViewSpyTargetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94669F35179AC9450018D4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94669F1C179AC9450018D4A7 /* JViewSpy */;
+			targetProxy = 94669F34179AC9450018D4A7 /* PBXContainerItemProxy */;
+		};
+		94669F73179AC9780018D4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94669F4B179AC9780018D4A7 /* JViewSpyTarget */;
+			targetProxy = 94669F72179AC9780018D4A7 /* PBXContainerItemProxy */;
+		};
+		94669F86179AC9A20018D4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94669F1C179AC9450018D4A7 /* JViewSpy */;
+			targetProxy = 94669F85179AC9A20018D4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94669F3A179AC9450018D4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94669F3B179AC9450018D4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94669F56179AC9780018D4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94669F57179AC9780018D4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94669F77179AC9780018D4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94669F78179AC9780018D4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94669F40179AC9450018D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94669F41179AC9450018D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94669F43179AC9450018D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JViewSpy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpy/JViewSpy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94669F44179AC9450018D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JViewSpy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpy/JViewSpy-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		94669F46179AC9450018D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpy/JViewSpy-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTests/JViewSpyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94669F47179AC9450018D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpy/JViewSpy-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTests/JViewSpyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		94669F7E179AC9780018D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpyTarget/JViewSpyTarget-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTarget/JViewSpyTarget-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94669F7F179AC9780018D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpyTarget/JViewSpyTarget-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTarget/JViewSpyTarget-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94669F81179AC9780018D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JViewSpyTarget.app/JViewSpyTarget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpyTarget/JViewSpyTarget-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTargetTests/JViewSpyTargetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94669F82179AC9780018D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JViewSpyTarget.app/JViewSpyTarget";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JViewSpyTarget/JViewSpyTarget-Prefix.pch";
+				INFOPLIST_FILE = "JViewSpyTargetTests/JViewSpyTargetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94669F18179AC9450018D4A7 /* Build configuration list for PBXProject "JViewSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94669F40179AC9450018D4A7 /* Debug */,
+				94669F41179AC9450018D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94669F42179AC9450018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94669F43179AC9450018D4A7 /* Debug */,
+				94669F44179AC9450018D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94669F45179AC9450018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94669F46179AC9450018D4A7 /* Debug */,
+				94669F47179AC9450018D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94669F7D179AC9780018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94669F7E179AC9780018D4A7 /* Debug */,
+				94669F7F179AC9780018D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94669F80179AC9780018D4A7 /* Build configuration list for PBXNativeTarget "JViewSpyTargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94669F81179AC9780018D4A7 /* Debug */,
+				94669F82179AC9780018D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94669F65179AC9780018D4A7 /* JViewSpyTarget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94669F66179AC9780018D4A7 /* JViewSpyTarget.xcdatamodel */,
+			);
+			currentVersion = 94669F66179AC9780018D4A7 /* JViewSpyTarget.xcdatamodel */;
+			path = JViewSpyTarget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94669F15179AC9450018D4A7 /* Project object */;
+}
